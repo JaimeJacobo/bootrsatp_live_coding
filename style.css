@@ -1,0 +1,150 @@
+header, footer {
+  background-color: #0f8eff;
+  height: 40px;
+}
+
+section {
+  height: 700px;
+}
+
+.btn-pink {
+  background-color: #fe058e;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#section_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Perro-sin-pelo-del-peru.JPG/1280px-Perro-sin-pelo-del-peru.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+#section_1 .jumbotron {
+  background-color: inherit;
+  margin-left: 10px;
+  padding-bottom: 0px;
+}
+
+@media screen and (min-width: 769px) {
+  #section_1 .jumbotron {
+    margin-left: 150px;
+  }
+}
+
+#section_1 .jumbotron p {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#section_2 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#section_2 form {
+  text-align: center;
+}
+
+#section_2 form #form-title {
+  color: white;
+  font-size: 30px;
+}
+
+#section_2 form .form-control {
+  border-radius: 0;
+}
+
+#section_2 .first-div {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTC3iWB1Sg0QIEhiDyjH2So1LacZ_Z968eBW8hnlG96Lrr-bAfP");
+  background-size: cover;
+  background-position: center;
+}
+
+#section_2 .second-div {
+  background-color: #0f8eff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#section_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  #section_3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+}
+
+#section_3 .card {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 18rem;
+  height: 24rem;
+}
+
+@media screen and (max-width: 768px) {
+  #section_3 .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: auto;
+  }
+}
+
+#section_3 .card-link-div {
+  text-align: right;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+footer p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

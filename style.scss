@@ -1,0 +1,124 @@
+$azul_principal: rgb(15, 142, 255);
+$rosa_principal: rgb(254, 5, 142);
+
+header, footer {
+  background-color: $azul_principal;
+  height: 40px;
+}
+
+section {
+  height: 700px;
+}
+
+//CLASES GENERALES
+
+  .btn-pink {
+    background-color: $rosa_principal;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+
+#section_1{
+  display: flex;
+  align-items: flex-end;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Perro-sin-pelo-del-peru.JPG/1280px-Perro-sin-pelo-del-peru.JPG');
+  background-size: cover;
+  background-position: center;
+
+  & .jumbotron{
+    background-color: inherit;
+    margin-left: 10px;
+    padding-bottom: 0px;
+
+    @media screen and (min-width: 769px){
+      margin-left: 150px;
+    }
+
+    & p {
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+    }
+  }
+}
+
+#section_2{
+
+  margin-right: 0px;
+  margin-left: 0px; 
+
+  & form {
+    text-align: center;
+
+    & #form-title{
+      color: white;
+      font-size: 30px;
+    }
+
+    & .form-control{
+      border-radius: 0;
+    }
+  }
+
+
+
+  & .first-div{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTC3iWB1Sg0QIEhiDyjH2So1LacZ_Z968eBW8hnlG96Lrr-bAfP');
+    background-size: cover;
+    background-position: center;
+  }
+
+  & .second-div{
+    background-color: $azul_principal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+#section_3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 768px){
+    flex-direction: column;
+    height: auto;
+  }
+
+  & .card{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 18rem; 
+    height: 24rem;
+
+    @media screen and (max-width: 768px){
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 90%;
+      height: auto;
+    }
+
+    &-link-div{
+      text-align: right;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  & p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 768px){
+    height: auto;
+  }
+}
